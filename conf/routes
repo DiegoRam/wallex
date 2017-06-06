@@ -9,5 +9,6 @@ GET     /                           controllers.Application.index
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 GET     /funds                      controllers.Application.funds
+GET     /trade                      controllers.Application.trade
 
     
