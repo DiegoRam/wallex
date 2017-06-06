@@ -16,4 +16,8 @@ class Application extends Controller {
     Ok(views.html.trade("wallex->Trading"))
   }
 
+  def ifttt = Action {
+    Ok(views.html.ifttt("wallex->Coding"))
+  }
+
 }
