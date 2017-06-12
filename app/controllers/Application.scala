@@ -20,4 +20,7 @@ class Application extends Controller {
     Ok(views.html.ifttt("wallex->Coding"))
   }
 
+  def login = Action {
+    Ok(views.html.login("Login"))
+  }
 }

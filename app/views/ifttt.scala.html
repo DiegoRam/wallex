@@ -1,9 +1,6 @@
 @(message: String)
 
 @main(message){
-    <script type="text/javascript" src="@routes.Assets.at("javascripts/blockly_compressed.js")"></script>
-    <script type="text/javascript" src="@routes.Assets.at("javascripts/blocks_compressed.js")"></script>
-    <script type="text/javascript" src="@routes.Assets.at("javascripts/en.js")"></script>
 
     <div class="container-fluid">
         <div class="row">
@@ -26,11 +23,13 @@
                 <xml id="toolbox" style="display: none">
                     <block type="controls_if"></block>
                     <block type="logic_compare"></block>
-                    <block type="controls_repeat_ext"></block>
                     <block type="math_number"></block>
+                    <block type="placeOrder"></block>
                     <block type="math_arithmetic"></block>
                     <block type="text"></block>
                     <block type="text_print"></block>
+                    <block type="controls_repeat_ext"></block>
+
                 </xml>
             </div>
             <div class="col-md-6">
@@ -54,6 +53,10 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/blockly_compressed.js")"></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/blocks_compressed.js")"></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/en.js")"></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/blocks.js")"></script>
     <script>
             var workspace = Blockly.inject('blocklyDiv',
                     {

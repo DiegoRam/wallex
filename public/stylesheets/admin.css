@@ -11,6 +11,12 @@ body {
     background-color: #222;
 }
 
+body.guest {
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+
+
 @media(min-width:768px) {
     body {
         margin-top: 50px;
