@@ -23,4 +23,8 @@ class Application extends Controller {
   def login = Action {
     Ok(views.html.login("Login"))
   }
+
+  def schedule = Action {
+    Ok(views.html.schedule("Schedule"))
+  }
 }

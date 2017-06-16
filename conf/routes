@@ -12,5 +12,5 @@ GET     /funds                      controllers.Application.funds
 GET     /trade                      controllers.Application.trade
 GET     /ifttt                      controllers.Application.ifttt
 GET     /                           controllers.Application.login
-
+GET     /schedule                   controllers.Application.schedule
     
