@@ -13,4 +13,6 @@ GET     /trade                      controllers.Application.trade
 GET     /ifttt                      controllers.Application.ifttt
 GET     /                           controllers.Application.login
 GET     /schedule                   controllers.Application.schedule
-    
+GET     /send                       controllers.Application.send
+GET     /send2address               controllers.Application.send2address
+GET     /send2service               controllers.Application.send2Service
